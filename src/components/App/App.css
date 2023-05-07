@@ -1,0 +1,84 @@
+main {
+    background: #0B2434;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game--container {
+    background: #F5F5F5;
+    /* border-radius: 10px; */
+    border-radius: 0.75vh;
+    width: 90vh;
+    height: 90vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 34px; */
+    padding: 4vh;
+}
+
+.game--title {
+    font-family: 'Karla';
+    /* font-size: 25.6px; */
+    font-size: 7vh;
+    /* line-height: 30px; */
+    display: flex;
+    letter-spacing: -0.03em;
+    color: #2B283A;
+    margin-bottom: 1vh;
+}
+
+.game--description {
+    font-family: 'Inter';
+    /* font-size: 13.1072px; */
+    font-size: 3vh;
+    /* line-height: 16px; */
+    line-height: 3vh;
+    display: flex;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #4A4E74;
+    margin-bottom: 3vh
+}
+
+.game--grid {
+    margin: 2vh 0 3vh 0;
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    /* gap: 18px; */
+    gap: 3vh;
+}
+
+.button--roll {
+    /* width: 92.16px; */
+    /* height: 35px; */
+    position: relative;
+    width: 20vh;
+    height: 7vh;
+    background: #5035FF;
+    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    /* border-radius: 5px; */
+    border-radius: 0.75vh;
+    font-family: 'Karla';
+    /* font-size: 16.384px; */
+    font-size: 5vh;
+    /* line-height: 19px; */
+    line-height: 3vh;
+    color: #FFFFFF;
+    /* margin-bottom: 5px; */
+    margin-bottom: 10vh;
+    border: none;
+}
+
+.button--roll:focus {
+    outline: none;
+}
+
+.button--roll:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}

@@ -1,0 +1,23 @@
+.stats--row {
+    font-family: 'Inter';
+    /* font-size: 10px; */
+    font-size: 2.5vh;
+    display: flex;
+    flex-direction: row;
+    /* line-height: 30px; */
+    line-height: 3vh;
+    color: #4A4E74;
+    width: 100%;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.stats--time {
+    margin-right: auto;
+}
