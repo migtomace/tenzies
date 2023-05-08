@@ -4,8 +4,7 @@
 
 main {
     background: #0B2434;
-    /* width: fit-content(min(100vh, 100vw)); */
-    width: 100dvw;
+    width: fit-content(min(100vh, 100vw));
     display: flex;
     align-items: center;
     justify-content: center;
