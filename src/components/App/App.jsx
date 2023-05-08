@@ -31,7 +31,8 @@ const App = () => {
   }, []);
 
   useEffect(() => {
-    bestTime && setBestTime(bestTime);
+    const storedTime = localStorage.getItem('bestTime');
+    storedTime && setBestTime(JSON.parse(storedTime));
   }, []);
 
   useEffect(() => {
