@@ -1,11 +1,9 @@
 .stats--row {
     font-family: 'Inter';
-    /* font-size: 10px; */
-    font-size: 2.5vh;
+    font-size: clamp(0.01rem, 0.5vw + 0.5rem, 1.5rem);
     display: flex;
     flex-direction: row;
-    /* line-height: 30px; */
-    line-height: 3vh;
+    line-height: 1.5em;
     color: #4A4E74;
     width: 100%;
 }
